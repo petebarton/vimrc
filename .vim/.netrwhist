@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/pete/.rvm/gems/ruby-1.9.3-p327/gems/rspec-2.12.0'
+let g:netrw_dirhist_2='/home/pete/.rvm/gems/ruby-1.9.3-p327/gems/pry-0.9.10'
+let g:netrw_dirhist_3='/var/www/KellyFrontEnd/app/controllers'
