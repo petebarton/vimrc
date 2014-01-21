@@ -99,6 +99,8 @@ function! s:crend(always)
   let col = match(getline(lnum),beginpat) + 1
   let word = matchstr(getline(lnum),beginpat)
   let endword = substitute(word,'.*',b:endwise_addition,'')
+  " pete change: to add blank line under end.
+  let y = n.endword."\<CR>\<C-O>kO"
   let y = n.endword."\<C-O>O"
   let endpat = '\w\@<!'.endword.'\w\@!'
   if a:always
