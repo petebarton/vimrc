@@ -29,12 +29,5 @@ endif
 set cursorcolumn
  
 "highlight CursorLine   cterm=NONE ctermbg=231
-
-
-" resize current pane with [windows key]-[arrow]
-nnoremap ^[OD :vertical resize -1<cr>   
-nnoremap ^[OB :resize +1<cr>               
-nnoremap ^[OA :resize -1<cr>               
-nnoremap ^[OC :vertical resize +1<cr>
 highlight CursorColumn cterm=NONE ctermbg=231
 
